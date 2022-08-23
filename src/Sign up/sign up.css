@@ -1,0 +1,64 @@
+ body {
+     background-color: rgb(150, 150, 209);
+     margin-top: 100px;
+ }
+
+ h1 {
+     text-align: center;
+    font-family: cursive;
+ }
+
+
+ .style {
+     text-align: center;
+ }
+
+ label{
+    font-family: cursive;
+    font-size: 20px;
+ }
+
+ input[type=text],
+ input[type=password] {
+     width: 30%;
+     padding: 15px;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+     border: none;
+     background: #f1f1f1;
+    font-family: cursive;
+    font-size: 20px;
+ }
+
+ input[type=text]:focus,
+ input[type=password]:focus {
+     background-color: #ddd;
+     outline: none;
+ }
+
+ button {
+     background-color: #04AA6D;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border: none;
+     cursor: pointer;
+     width: 30%;
+     opacity: 0.9;
+     font-size: 20px;
+     font-family: cursive;
+ }
+
+ button:hover {
+     opacity: 1;
+ }
+
+ .anis{
+    text-align: center;
+    font-family: cursive;
+ }
+
+ span{
+    font-size: 20px;
+ }
+
