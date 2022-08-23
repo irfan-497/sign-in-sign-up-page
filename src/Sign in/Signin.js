@@ -1,6 +1,5 @@
 import React from 'react'
 import './sign in.css'
-import { Link } from "react-router-dom";
 function Signin() {
   return (
     <>    
@@ -30,12 +29,7 @@ function Signin() {
          </div>
         </form>
       </div>
-          <div className='ani'> 
-        <span>
-        Not Registerd please Back to ,
-        </span>
-        <Link to="/signup" style={{fontSize:"20px"}}>Sign up</Link>
-      </div>
+         
     </>
   )
 }
